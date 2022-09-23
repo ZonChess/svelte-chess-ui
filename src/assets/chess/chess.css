@@ -1360,42 +1360,40 @@ html[dir="rtl"] .icon-font-chess.pushpin:before {
   padding: 0;
   text-shadow: 0.1rem 0.1rem rgba(49, 46, 43, 0.4);
   width: var(--boardControlsWidth);
+}
 
-  &.icon-font-chess {
-    &.resize {
-      bottom: 0;
-      cursor: nwse-resize;
-      display: none;
-      position: absolute;
-    }
+.board-layout-icon.icon-font-chess.resize {
+  bottom: 0;
+  cursor: nwse-resize;
+  display: none;
+  position: absolute;
+}
 
-    &.theatre:before {
-      border: 0.2rem solid;
-      content: "";
-      display: block;
-      height: 1.1rem;
-      position: relative;
-      top: 0.2rem;
-      width: var(--gutter);
-    }
-  }
+.board-layout-icon.icon-font-chess.theatre:before {
+  border: 0.2rem solid;
+  content: "";
+  display: block;
+  height: 1.1rem;
+  position: relative;
+  top: 0.2rem;
+  width: var(--gutter);
+}
 
-  &.resize {
-    bottom: 0;
-    cursor: nwse-resize;
-    display: none;
-    position: absolute;
-  }
+.board-layout-icon.resize {
+  bottom: 0;
+  cursor: nwse-resize;
+  display: none;
+  position: absolute;
+}
 
-  &.theatre:before {
-    border: 0.2rem solid;
-    content: "";
-    display: block;
-    height: 1.1rem;
-    position: relative;
-    top: 0.2rem;
-    width: var(--gutter);
-  }
+.board-layout-icon.theatre:before {
+  border: 0.2rem solid;
+  content: "";
+  display: block;
+  height: 1.1rem;
+  position: relative;
+  top: 0.2rem;
+  width: var(--gutter);
 }
 
 .board-layout-controls {

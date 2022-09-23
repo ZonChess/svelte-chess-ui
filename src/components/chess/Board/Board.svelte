@@ -333,6 +333,10 @@
 </chessboard>
 
 <style scoped>
+  chessboard {
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
   #board-single {
     background-image: url("@/assets/chess/themes/boards/green/150.png");
   }

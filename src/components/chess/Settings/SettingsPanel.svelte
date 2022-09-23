@@ -25,12 +25,12 @@
 
   const updateToggleData = () => {
     toggleData = [
-      {
-        label: "Evaluation",
-        id: "evaluation",
-        classes: "analysis-options-toggle",
-        checked: settings?.evaluation,
-      },
+      // {
+      //   label: "Evaluation",
+      //   id: "evaluation",
+      //   classes: "analysis-options-toggle",
+      //   checked: settings?.evaluation,
+      // },
       {
         label: "Lines",
         id: "lines",
@@ -66,14 +66,14 @@
     </div>
     <div class="analysis-options-right">
       <!---->
-      <div class="analysis-options-depth">depth=20 | Stockfish 15</div>
-      <Icon
+      <div class="analysis-options-depth">Stockfish</div>
+      <!-- <Icon
         name="circle-gearwheel"
         classes="analysis-options-icon"
         data="analysis-options-settings-button"
         tooltipData="Settings"
         disabledTooltip={false}
-      />
+      /> -->
     </div>
   </div>
 </div>

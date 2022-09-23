@@ -11,27 +11,27 @@
       icon: "chess-board-search",
       dataCy: "sidebar-selected-tab-analysis",
     },
-    {
-      name: "New Game",
-      content: AnalysisTab,
-      isActive: false,
-      icon: "chess-board-search",
-      dataCy: "sidebar-selected-tab-analysis",
-    },
-    {
-      name: "Games",
-      content: AnalysisTab,
-      isActive: false,
-      icon: "chess-board-search",
-      dataCy: "sidebar-selected-tab-analysis",
-    },
-    {
-      name: "Players",
-      content: AnalysisTab,
-      isActive: false,
-      icon: "chess-board-search",
-      dataCy: "sidebar-selected-tab-analysis",
-    },
+    // {
+    //   name: "New Game",
+    //   content: AnalysisTab,
+    //   isActive: false,
+    //   icon: "chess-board-search",
+    //   dataCy: "sidebar-selected-tab-analysis",
+    // },
+    // {
+    //   name: "Games",
+    //   content: AnalysisTab,
+    //   isActive: false,
+    //   icon: "chess-board-search",
+    //   dataCy: "sidebar-selected-tab-analysis",
+    // },
+    // {
+    //   name: "Players",
+    //   content: AnalysisTab,
+    //   isActive: false,
+    //   icon: "chess-board-search",
+    //   dataCy: "sidebar-selected-tab-analysis",
+    // },
   ];
 </script>
 
