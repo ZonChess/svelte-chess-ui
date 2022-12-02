@@ -15,7 +15,7 @@
   $: tab = tabs.find((t) => t.isActive);
 </script>
 
-<div class="sidebar-tabs-component">
+<div class="flex justify-center">
   {#each tabs as tab}
     <TabHeader
       name={tab.name}

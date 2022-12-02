@@ -1462,20 +1462,20 @@ body.dark-mode .variation:before {
   .br.svelte-sg5tpd.svelte-sg5tpd {
   z-index: 2;
 }
-.hand-piece.svelte-77hwby.svelte-77hwby {
+.hand-piece {
   background-size: cover;
   cursor: -webkit-grab;
   cursor: grab;
   position: absolute;
 }
-.hand-piece.dragging.svelte-77hwby.svelte-77hwby {
+.hand-piece.dragging {
   cursor: -webkit-grabbing;
   cursor: grabbing;
   position: fixed;
   will-change: transform;
   z-index: 11;
 }
-.hand-piece.hidden.svelte-77hwby.svelte-77hwby {
+.hand-piece.hidden {
   display: none;
 }
 body.hand-pieces-dragging-body {
@@ -1484,33 +1484,33 @@ body.hand-pieces-dragging-body {
   -ms-user-select: none;
   user-select: none;
 }
-.hand-pieces.svelte-77hwby.svelte-77hwby {
+.hand-pieces {
   height: 100%;
   position: relative;
   width: 100%;
 }
-.hand-pieces.horizontal.svelte-77hwby.svelte-77hwby {
+.hand-pieces.horizontal {
   height: auto;
   padding-top: 40%;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby.svelte-77hwby {
+.hand-pieces.horizontal.with-king {
   height: auto;
   padding-top: 33.33333%;
 }
-.board .hand-pieces.svelte-77hwby.svelte-77hwby {
+.board .hand-pieces {
   left: -10%;
   position: absolute;
   width: 10%;
 }
-.board-webgl-3d .hand-pieces.svelte-77hwby.svelte-77hwby {
+.board-webgl-3d .hand-pieces {
   left: -7.5%;
   width: 7.5%;
 }
-.board-webgl-3d .hand-pieces.with-king.svelte-77hwby.svelte-77hwby {
+.board-webgl-3d .hand-pieces.with-king {
   left: -6.25%;
   width: 6.25%;
 }
-.hand-pieces.svelte-77hwby .hand-piece-count.svelte-77hwby {
+.hand-pieces .hand-piece-count {
   align-items: center;
   background: #fff;
   border-radius: 50%;
@@ -1529,344 +1529,344 @@ body.hand-pieces-dragging-body {
   user-select: none;
   width: 30%;
 }
-.hand-pieces.svelte-77hwby .hand-piece.svelte-77hwby {
+.hand-pieces .hand-piece {
   height: 10%;
   width: 100%;
 }
-.hand-pieces.svelte-77hwby .hand-piece.bp.svelte-77hwby {
+.hand-pieces .hand-piece.bp {
   top: 0;
 }
-.hand-pieces.svelte-77hwby .hand-piece.bb.svelte-77hwby {
+.hand-pieces .hand-piece.bb {
   top: 10%;
 }
-.hand-pieces.svelte-77hwby .hand-piece.bn.svelte-77hwby {
+.hand-pieces .hand-piece.bn {
   top: 20%;
 }
-.hand-pieces.svelte-77hwby .hand-piece.br.svelte-77hwby {
+.hand-pieces .hand-piece.br {
   top: 30%;
 }
-.hand-pieces.svelte-77hwby .hand-piece.bq.svelte-77hwby {
+.hand-pieces .hand-piece.bq {
   top: 40%;
 }
-.hand-pieces.svelte-77hwby .hand-piece.wq.svelte-77hwby {
+.hand-pieces .hand-piece.wq {
   top: 50%;
 }
-.hand-pieces.svelte-77hwby .hand-piece.wr.svelte-77hwby {
+.hand-pieces .hand-piece.wr {
   top: 60%;
 }
-.hand-pieces.svelte-77hwby .hand-piece.wn.svelte-77hwby {
+.hand-pieces .hand-piece.wn {
   top: 70%;
 }
-.hand-pieces.svelte-77hwby .hand-piece.wb.svelte-77hwby {
+.hand-pieces .hand-piece.wb {
   top: 80%;
 }
-.hand-pieces.svelte-77hwby .hand-piece.wp.svelte-77hwby {
+.hand-pieces .hand-piece.wp {
   top: 90%;
 }
-.hand-pieces.flipped.svelte-77hwby .hand-piece.wp.svelte-77hwby {
+.hand-pieces.flipped .hand-piece.wp {
   top: 0;
 }
-.hand-pieces.flipped.svelte-77hwby .hand-piece.wb.svelte-77hwby {
+.hand-pieces.flipped .hand-piece.wb {
   top: 10%;
 }
-.hand-pieces.flipped.svelte-77hwby .hand-piece.wn.svelte-77hwby {
+.hand-pieces.flipped .hand-piece.wn {
   top: 20%;
 }
-.hand-pieces.flipped.svelte-77hwby .hand-piece.wr.svelte-77hwby {
+.hand-pieces.flipped .hand-piece.wr {
   top: 30%;
 }
-.hand-pieces.flipped.svelte-77hwby .hand-piece.wq.svelte-77hwby {
+.hand-pieces.flipped .hand-piece.wq {
   top: 40%;
 }
-.hand-pieces.flipped.svelte-77hwby .hand-piece.bq.svelte-77hwby {
+.hand-pieces.flipped .hand-piece.bq {
   top: 50%;
 }
-.hand-pieces.flipped.svelte-77hwby .hand-piece.br.svelte-77hwby {
+.hand-pieces.flipped .hand-piece.br {
   top: 60%;
 }
-.hand-pieces.flipped.svelte-77hwby .hand-piece.bn.svelte-77hwby {
+.hand-pieces.flipped .hand-piece.bn {
   top: 70%;
 }
-.hand-pieces.flipped.svelte-77hwby .hand-piece.bb.svelte-77hwby {
+.hand-pieces.flipped .hand-piece.bb {
   top: 80%;
 }
-.hand-pieces.flipped.svelte-77hwby .hand-piece.bp.svelte-77hwby {
+.hand-pieces.flipped .hand-piece.bp {
   top: 90%;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.svelte-77hwby {
+.hand-pieces.with-king .hand-piece {
   height: 8.33333%;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.bp.svelte-77hwby {
+.hand-pieces.with-king .hand-piece.bp {
   top: 0;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.bb.svelte-77hwby {
+.hand-pieces.with-king .hand-piece.bb {
   top: 8.33333%;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.bn.svelte-77hwby {
+.hand-pieces.with-king .hand-piece.bn {
   top: 16.66667%;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.br.svelte-77hwby {
+.hand-pieces.with-king .hand-piece.br {
   top: 25%;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.bq.svelte-77hwby {
+.hand-pieces.with-king .hand-piece.bq {
   top: 33.33333%;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.bk.svelte-77hwby {
+.hand-pieces.with-king .hand-piece.bk {
   top: 41.66667%;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.wk.svelte-77hwby {
+.hand-pieces.with-king .hand-piece.wk {
   top: 50%;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.wq.svelte-77hwby {
+.hand-pieces.with-king .hand-piece.wq {
   top: 58.33333%;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.wr.svelte-77hwby {
+.hand-pieces.with-king .hand-piece.wr {
   top: 66.66667%;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.wn.svelte-77hwby {
+.hand-pieces.with-king .hand-piece.wn {
   top: 75%;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.wb.svelte-77hwby {
+.hand-pieces.with-king .hand-piece.wb {
   top: 83.33333%;
 }
-.hand-pieces.with-king.svelte-77hwby .hand-piece.wp.svelte-77hwby {
+.hand-pieces.with-king .hand-piece.wp {
   top: 91.66667%;
 }
-.hand-pieces.with-king.flipped.svelte-77hwby .hand-piece.wp.svelte-77hwby {
+.hand-pieces.with-king.flipped .hand-piece.wp {
   top: 0;
 }
-.hand-pieces.with-king.flipped.svelte-77hwby .hand-piece.wb.svelte-77hwby {
+.hand-pieces.with-king.flipped .hand-piece.wb {
   top: 8.33333%;
 }
-.hand-pieces.with-king.flipped.svelte-77hwby .hand-piece.wn.svelte-77hwby {
+.hand-pieces.with-king.flipped .hand-piece.wn {
   top: 16.66667%;
 }
-.hand-pieces.with-king.flipped.svelte-77hwby .hand-piece.wr.svelte-77hwby {
+.hand-pieces.with-king.flipped .hand-piece.wr {
   top: 25%;
 }
-.hand-pieces.with-king.flipped.svelte-77hwby .hand-piece.wq.svelte-77hwby {
+.hand-pieces.with-king.flipped .hand-piece.wq {
   top: 33.33333%;
 }
-.hand-pieces.with-king.flipped.svelte-77hwby .hand-piece.wk.svelte-77hwby {
+.hand-pieces.with-king.flipped .hand-piece.wk {
   top: 41.66667%;
 }
-.hand-pieces.with-king.flipped.svelte-77hwby .hand-piece.bk.svelte-77hwby {
+.hand-pieces.with-king.flipped .hand-piece.bk {
   top: 50%;
 }
-.hand-pieces.with-king.flipped.svelte-77hwby .hand-piece.bq.svelte-77hwby {
+.hand-pieces.with-king.flipped .hand-piece.bq {
   top: 58.33333%;
 }
-.hand-pieces.with-king.flipped.svelte-77hwby .hand-piece.br.svelte-77hwby {
+.hand-pieces.with-king.flipped .hand-piece.br {
   top: 66.66667%;
 }
-.hand-pieces.with-king.flipped.svelte-77hwby .hand-piece.bn.svelte-77hwby {
+.hand-pieces.with-king.flipped .hand-piece.bn {
   top: 75%;
 }
-.hand-pieces.with-king.flipped.svelte-77hwby .hand-piece.bb.svelte-77hwby {
+.hand-pieces.with-king.flipped .hand-piece.bb {
   top: 83.33333%;
 }
-.hand-pieces.with-king.flipped.svelte-77hwby .hand-piece.bp.svelte-77hwby {
+.hand-pieces.with-king.flipped .hand-piece.bp {
   top: 91.66667%;
 }
-.hand-pieces.horizontal.svelte-77hwby .hand-piece.svelte-77hwby {
+.hand-pieces.horizontal .hand-piece {
   height: 50%;
   width: 20%;
 }
-.hand-pieces.horizontal.svelte-77hwby .hand-piece.bp.svelte-77hwby {
+.hand-pieces.horizontal .hand-piece.bp {
   left: 0;
   top: 0;
 }
-.hand-pieces.horizontal.svelte-77hwby .hand-piece.bb.svelte-77hwby {
+.hand-pieces.horizontal .hand-piece.bb {
   left: 20%;
   top: 0;
 }
-.hand-pieces.horizontal.svelte-77hwby .hand-piece.bn.svelte-77hwby {
+.hand-pieces.horizontal .hand-piece.bn {
   left: 40%;
   top: 0;
 }
-.hand-pieces.horizontal.svelte-77hwby .hand-piece.br.svelte-77hwby {
+.hand-pieces.horizontal .hand-piece.br {
   left: 60%;
   top: 0;
 }
-.hand-pieces.horizontal.svelte-77hwby .hand-piece.bq.svelte-77hwby {
+.hand-pieces.horizontal .hand-piece.bq {
   left: 80%;
   top: 0;
 }
-.hand-pieces.horizontal.svelte-77hwby .hand-piece.wp.svelte-77hwby {
+.hand-pieces.horizontal .hand-piece.wp {
   left: 0;
   top: 50%;
 }
-.hand-pieces.horizontal.svelte-77hwby .hand-piece.wb.svelte-77hwby {
+.hand-pieces.horizontal .hand-piece.wb {
   left: 20%;
   top: 50%;
 }
-.hand-pieces.horizontal.svelte-77hwby .hand-piece.wn.svelte-77hwby {
+.hand-pieces.horizontal .hand-piece.wn {
   left: 40%;
   top: 50%;
 }
-.hand-pieces.horizontal.svelte-77hwby .hand-piece.wr.svelte-77hwby {
+.hand-pieces.horizontal .hand-piece.wr {
   left: 60%;
   top: 50%;
 }
-.hand-pieces.horizontal.svelte-77hwby .hand-piece.wq.svelte-77hwby {
+.hand-pieces.horizontal .hand-piece.wq {
   left: 80%;
   top: 50%;
 }
-.hand-pieces.horizontal.flipped.svelte-77hwby .hand-piece.wp.svelte-77hwby {
+.hand-pieces.horizontal.flipped .hand-piece.wp {
   left: 0;
   top: 0;
 }
-.hand-pieces.horizontal.flipped.svelte-77hwby .hand-piece.wb.svelte-77hwby {
+.hand-pieces.horizontal.flipped .hand-piece.wb {
   left: 20%;
   top: 0;
 }
-.hand-pieces.horizontal.flipped.svelte-77hwby .hand-piece.wn.svelte-77hwby {
+.hand-pieces.horizontal.flipped .hand-piece.wn {
   left: 40%;
   top: 0;
 }
-.hand-pieces.horizontal.flipped.svelte-77hwby .hand-piece.wr.svelte-77hwby {
+.hand-pieces.horizontal.flipped .hand-piece.wr {
   left: 60%;
   top: 0;
 }
-.hand-pieces.horizontal.flipped.svelte-77hwby .hand-piece.wq.svelte-77hwby {
+.hand-pieces.horizontal.flipped .hand-piece.wq {
   left: 80%;
   top: 0;
 }
-.hand-pieces.horizontal.flipped.svelte-77hwby .hand-piece.bp.svelte-77hwby {
+.hand-pieces.horizontal.flipped .hand-piece.bp {
   left: 0;
   top: 50%;
 }
-.hand-pieces.horizontal.flipped.svelte-77hwby .hand-piece.bb.svelte-77hwby {
+.hand-pieces.horizontal.flipped .hand-piece.bb {
   left: 20%;
   top: 50%;
 }
-.hand-pieces.horizontal.flipped.svelte-77hwby .hand-piece.bn.svelte-77hwby {
+.hand-pieces.horizontal.flipped .hand-piece.bn {
   left: 40%;
   top: 50%;
 }
-.hand-pieces.horizontal.flipped.svelte-77hwby .hand-piece.br.svelte-77hwby {
+.hand-pieces.horizontal.flipped .hand-piece.br {
   left: 60%;
   top: 50%;
 }
-.hand-pieces.horizontal.flipped.svelte-77hwby .hand-piece.bq.svelte-77hwby {
+.hand-pieces.horizontal.flipped .hand-piece.bq {
   left: 80%;
   top: 50%;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece {
   width: 16.66667%;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.bp.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece.bp {
   left: 0;
   top: 0;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.bb.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece.bb {
   left: 16.66667%;
   top: 0;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.bn.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece.bn {
   left: 33.33333%;
   top: 0;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.br.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece.br {
   left: 50%;
   top: 0;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.bq.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece.bq {
   left: 66.66667%;
   top: 0;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.bk.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece.bk {
   left: 83.33333%;
   top: 0;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.wp.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece.wp {
   left: 0;
   top: 50%;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.wb.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece.wb {
   left: 16.66667%;
   top: 50%;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.wn.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece.wn {
   left: 33.33333%;
   top: 50%;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.wr.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece.wr {
   left: 50%;
   top: 50%;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.wq.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece.wq {
   left: 66.66667%;
   top: 50%;
 }
-.hand-pieces.horizontal.with-king.svelte-77hwby .hand-piece.wk.svelte-77hwby {
+.hand-pieces.horizontal.with-king .hand-piece.wk {
   left: 83.33333%;
   top: 50%;
 }
-.hand-pieces.horizontal.flipped.with-king.svelte-77hwby
-  .hand-piece.wp.svelte-77hwby {
+.hand-pieces.horizontal.flipped.with-king
+  .hand-piece.wp {
   left: 0;
   top: 0;
 }
-.hand-pieces.horizontal.flipped.with-king.svelte-77hwby
-  .hand-piece.wb.svelte-77hwby {
+.hand-pieces.horizontal.flipped.with-king
+  .hand-piece.wb {
   left: 16.66667%;
   top: 0;
 }
-.hand-pieces.horizontal.flipped.with-king.svelte-77hwby
-  .hand-piece.wn.svelte-77hwby {
+.hand-pieces.horizontal.flipped.with-king
+  .hand-piece.wn {
   left: 33.33333%;
   top: 0;
 }
-.hand-pieces.horizontal.flipped.with-king.svelte-77hwby
-  .hand-piece.wr.svelte-77hwby {
+.hand-pieces.horizontal.flipped.with-king
+  .hand-piece.wr {
   left: 50%;
   top: 0;
 }
-.hand-pieces.horizontal.flipped.with-king.svelte-77hwby
-  .hand-piece.wq.svelte-77hwby {
+.hand-pieces.horizontal.flipped.with-king
+  .hand-piece.wq {
   left: 66.66667%;
   top: 0;
 }
-.hand-pieces.horizontal.flipped.with-king.svelte-77hwby
-  .hand-piece.wk.svelte-77hwby {
+.hand-pieces.horizontal.flipped.with-king
+  .hand-piece.wk {
   left: 83.33333%;
   top: 0;
 }
-.hand-pieces.horizontal.flipped.with-king.svelte-77hwby
-  .hand-piece.bp.svelte-77hwby {
+.hand-pieces.horizontal.flipped.with-king
+  .hand-piece.bp {
   left: 0;
   top: 50%;
 }
-.hand-pieces.horizontal.flipped.with-king.svelte-77hwby
-  .hand-piece.bb.svelte-77hwby {
+.hand-pieces.horizontal.flipped.with-king
+  .hand-piece.bb {
   left: 16.66667%;
   top: 50%;
 }
-.hand-pieces.horizontal.flipped.with-king.svelte-77hwby
-  .hand-piece.bn.svelte-77hwby {
+.hand-pieces.horizontal.flipped.with-king
+  .hand-piece.bn {
   left: 33.33333%;
   top: 50%;
 }
-.hand-pieces.horizontal.flipped.with-king.svelte-77hwby
-  .hand-piece.br.svelte-77hwby {
+.hand-pieces.horizontal.flipped.with-king
+  .hand-piece.br {
   left: 50%;
   top: 50%;
 }
-.hand-pieces.horizontal.flipped.with-king.svelte-77hwby
-  .hand-piece.bq.svelte-77hwby {
+.hand-pieces.horizontal.flipped.with-king
+  .hand-piece.bq {
   left: 66.66667%;
   top: 50%;
 }
-.hand-pieces.horizontal.flipped.with-king.svelte-77hwby
-  .hand-piece.bk.svelte-77hwby {
+.hand-pieces.horizontal.flipped.with-king
+  .hand-piece.bk {
   left: 83.33333%;
   top: 50%;
 }
-.hand-pieces.pseudo3d.svelte-77hwby .hand-piece.svelte-77hwby {
+.hand-pieces.pseudo3d .hand-piece {
   overflow: visible;
 }
-.hand-pieces.pseudo3d.svelte-77hwby .hand-piece.svelte-77hwby:after {
+.hand-pieces.pseudo3d .hand-piece:after {
   background-position-y: bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1877,260 +1877,260 @@ body.hand-pieces-dragging-body {
   position: absolute;
   width: 100%;
 }
-.hand-pieces.pseudo3d.svelte-77hwby .hand-piece.bp.svelte-77hwby {
+.hand-pieces.pseudo3d .hand-piece.bp {
   z-index: 1;
 }
-.hand-pieces.pseudo3d.svelte-77hwby .hand-piece.bb.svelte-77hwby {
+.hand-pieces.pseudo3d .hand-piece.bb {
   z-index: 2;
 }
-.hand-pieces.pseudo3d.svelte-77hwby .hand-piece.bn.svelte-77hwby {
+.hand-pieces.pseudo3d .hand-piece.bn {
   z-index: 3;
 }
-.hand-pieces.pseudo3d.svelte-77hwby .hand-piece.br.svelte-77hwby {
+.hand-pieces.pseudo3d .hand-piece.br {
   z-index: 4;
 }
-.hand-pieces.pseudo3d.svelte-77hwby .hand-piece.bq.svelte-77hwby {
+.hand-pieces.pseudo3d .hand-piece.bq {
   z-index: 5;
 }
-.hand-pieces.pseudo3d.svelte-77hwby .hand-piece.wq.svelte-77hwby {
+.hand-pieces.pseudo3d .hand-piece.wq {
   z-index: 6;
 }
-.hand-pieces.pseudo3d.svelte-77hwby .hand-piece.wr.svelte-77hwby {
+.hand-pieces.pseudo3d .hand-piece.wr {
   z-index: 7;
 }
-.hand-pieces.pseudo3d.svelte-77hwby .hand-piece.wn.svelte-77hwby {
+.hand-pieces.pseudo3d .hand-piece.wn {
   z-index: 8;
 }
-.hand-pieces.pseudo3d.svelte-77hwby .hand-piece.wb.svelte-77hwby {
+.hand-pieces.pseudo3d .hand-piece.wb {
   z-index: 9;
 }
-.hand-pieces.pseudo3d.svelte-77hwby .hand-piece.wp.svelte-77hwby {
+.hand-pieces.pseudo3d .hand-piece.wp {
   z-index: 10;
 }
-.hand-pieces.pseudo3d.flipped.svelte-77hwby .hand-piece.wp.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped .hand-piece.wp {
   z-index: 1;
 }
-.hand-pieces.pseudo3d.flipped.svelte-77hwby .hand-piece.wb.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped .hand-piece.wb {
   z-index: 2;
 }
-.hand-pieces.pseudo3d.flipped.svelte-77hwby .hand-piece.wn.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped .hand-piece.wn {
   z-index: 3;
 }
-.hand-pieces.pseudo3d.flipped.svelte-77hwby .hand-piece.wr.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped .hand-piece.wr {
   z-index: 4;
 }
-.hand-pieces.pseudo3d.flipped.svelte-77hwby .hand-piece.wq.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped .hand-piece.wq {
   z-index: 5;
 }
-.hand-pieces.pseudo3d.flipped.svelte-77hwby .hand-piece.bq.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped .hand-piece.bq {
   z-index: 6;
 }
-.hand-pieces.pseudo3d.flipped.svelte-77hwby .hand-piece.br.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped .hand-piece.br {
   z-index: 7;
 }
-.hand-pieces.pseudo3d.flipped.svelte-77hwby .hand-piece.bn.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped .hand-piece.bn {
   z-index: 8;
 }
-.hand-pieces.pseudo3d.flipped.svelte-77hwby .hand-piece.bb.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped .hand-piece.bb {
   z-index: 9;
 }
-.hand-pieces.pseudo3d.flipped.svelte-77hwby .hand-piece.bp.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped .hand-piece.bp {
   z-index: 10;
 }
-.hand-pieces.pseudo3d.with-king.svelte-77hwby .hand-piece.bp.svelte-77hwby {
+.hand-pieces.pseudo3d.with-king .hand-piece.bp {
   z-index: 1;
 }
-.hand-pieces.pseudo3d.with-king.svelte-77hwby .hand-piece.bb.svelte-77hwby {
+.hand-pieces.pseudo3d.with-king .hand-piece.bb {
   z-index: 2;
 }
-.hand-pieces.pseudo3d.with-king.svelte-77hwby .hand-piece.bn.svelte-77hwby {
+.hand-pieces.pseudo3d.with-king .hand-piece.bn {
   z-index: 3;
 }
-.hand-pieces.pseudo3d.with-king.svelte-77hwby .hand-piece.br.svelte-77hwby {
+.hand-pieces.pseudo3d.with-king .hand-piece.br {
   z-index: 4;
 }
-.hand-pieces.pseudo3d.with-king.svelte-77hwby .hand-piece.bq.svelte-77hwby {
+.hand-pieces.pseudo3d.with-king .hand-piece.bq {
   z-index: 5;
 }
-.hand-pieces.pseudo3d.with-king.svelte-77hwby .hand-piece.bk.svelte-77hwby {
+.hand-pieces.pseudo3d.with-king .hand-piece.bk {
   z-index: 6;
 }
-.hand-pieces.pseudo3d.with-king.svelte-77hwby .hand-piece.wk.svelte-77hwby {
+.hand-pieces.pseudo3d.with-king .hand-piece.wk {
   z-index: 7;
 }
-.hand-pieces.pseudo3d.with-king.svelte-77hwby .hand-piece.wq.svelte-77hwby {
+.hand-pieces.pseudo3d.with-king .hand-piece.wq {
   z-index: 8;
 }
-.hand-pieces.pseudo3d.with-king.svelte-77hwby .hand-piece.wr.svelte-77hwby {
+.hand-pieces.pseudo3d.with-king .hand-piece.wr {
   z-index: 9;
 }
-.hand-pieces.pseudo3d.with-king.svelte-77hwby .hand-piece.wn.svelte-77hwby {
+.hand-pieces.pseudo3d.with-king .hand-piece.wn {
   z-index: 10;
 }
-.hand-pieces.pseudo3d.with-king.svelte-77hwby .hand-piece.wb.svelte-77hwby {
+.hand-pieces.pseudo3d.with-king .hand-piece.wb {
   z-index: 11;
 }
-.hand-pieces.pseudo3d.with-king.svelte-77hwby .hand-piece.wp.svelte-77hwby {
+.hand-pieces.pseudo3d.with-king .hand-piece.wp {
   z-index: 12;
 }
-.hand-pieces.pseudo3d.flipped.with-king.svelte-77hwby
-  .hand-piece.wp.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped.with-king
+  .hand-piece.wp {
   z-index: 1;
 }
-.hand-pieces.pseudo3d.flipped.with-king.svelte-77hwby
-  .hand-piece.wb.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped.with-king
+  .hand-piece.wb {
   z-index: 2;
 }
-.hand-pieces.pseudo3d.flipped.with-king.svelte-77hwby
-  .hand-piece.wn.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped.with-king
+  .hand-piece.wn {
   z-index: 3;
 }
-.hand-pieces.pseudo3d.flipped.with-king.svelte-77hwby
-  .hand-piece.wr.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped.with-king
+  .hand-piece.wr {
   z-index: 4;
 }
-.hand-pieces.pseudo3d.flipped.with-king.svelte-77hwby
-  .hand-piece.wq.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped.with-king
+  .hand-piece.wq {
   z-index: 5;
 }
-.hand-pieces.pseudo3d.flipped.with-king.svelte-77hwby
-  .hand-piece.wk.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped.with-king
+  .hand-piece.wk {
   z-index: 6;
 }
-.hand-pieces.pseudo3d.flipped.with-king.svelte-77hwby
-  .hand-piece.bk.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped.with-king
+  .hand-piece.bk {
   z-index: 7;
 }
-.hand-pieces.pseudo3d.flipped.with-king.svelte-77hwby
-  .hand-piece.bq.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped.with-king
+  .hand-piece.bq {
   z-index: 8;
 }
-.hand-pieces.pseudo3d.flipped.with-king.svelte-77hwby
-  .hand-piece.br.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped.with-king
+  .hand-piece.br {
   z-index: 9;
 }
-.hand-pieces.pseudo3d.flipped.with-king.svelte-77hwby
-  .hand-piece.bn.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped.with-king
+  .hand-piece.bn {
   z-index: 10;
 }
-.hand-pieces.pseudo3d.flipped.with-king.svelte-77hwby
-  .hand-piece.bb.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped.with-king
+  .hand-piece.bb {
   z-index: 11;
 }
-.hand-pieces.pseudo3d.flipped.with-king.svelte-77hwby
-  .hand-piece.bp.svelte-77hwby {
+.hand-pieces.pseudo3d.flipped.with-king
+  .hand-piece.bp {
   z-index: 12;
 }
-.hand-pieces.pseudo3d.horizontal .piece .bb.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal .piece .bn.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal .piece .bp.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal .piece .bq.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal .piece .br.svelte-77hwby.svelte-77hwby {
+.hand-pieces.pseudo3d.horizontal .piece .bb,
+.hand-pieces.pseudo3d.horizontal .piece .bn,
+.hand-pieces.pseudo3d.horizontal .piece .bp,
+.hand-pieces.pseudo3d.horizontal .piece .bq,
+.hand-pieces.pseudo3d.horizontal .piece .br {
   z-index: 1;
 }
-.hand-pieces.pseudo3d.horizontal .piece .wb.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal .piece .wn.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal .piece .wp.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal .piece .wq.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal .piece .wr.svelte-77hwby.svelte-77hwby {
+.hand-pieces.pseudo3d.horizontal .piece .wb,
+.hand-pieces.pseudo3d.horizontal .piece .wn,
+.hand-pieces.pseudo3d.horizontal .piece .wp,
+.hand-pieces.pseudo3d.horizontal .piece .wq,
+.hand-pieces.pseudo3d.horizontal .piece .wr {
   z-index: 2;
 }
-.hand-pieces.pseudo3d.horizontal.flipped .piece .wb.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal.flipped .piece .wn.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal.flipped .piece .wp.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal.flipped .piece .wq.svelte-77hwby.svelte-77hwby,
+.hand-pieces.pseudo3d.horizontal.flipped .piece .wb,
+.hand-pieces.pseudo3d.horizontal.flipped .piece .wn,
+.hand-pieces.pseudo3d.horizontal.flipped .piece .wp,
+.hand-pieces.pseudo3d.horizontal.flipped .piece .wq,
 .hand-pieces.pseudo3d.horizontal.flipped
   .piece
-  .wr.svelte-77hwby.svelte-77hwby {
+  .wr {
   z-index: 1;
 }
-.hand-pieces.pseudo3d.horizontal.flipped .piece .bb.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal.flipped .piece .bn.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal.flipped .piece .bp.svelte-77hwby.svelte-77hwby,
-.hand-pieces.pseudo3d.horizontal.flipped .piece .bq.svelte-77hwby.svelte-77hwby,
+.hand-pieces.pseudo3d.horizontal.flipped .piece .bb,
+.hand-pieces.pseudo3d.horizontal.flipped .piece .bn,
+.hand-pieces.pseudo3d.horizontal.flipped .piece .bp,
+.hand-pieces.pseudo3d.horizontal.flipped .piece .bq,
 .hand-pieces.pseudo3d.horizontal.flipped
   .piece
-  .br.svelte-77hwby.svelte-77hwby {
+  .br {
   z-index: 2;
 }
 .hand-pieces.pseudo3d.horizontal.with-king
   .piece
-  .bb.svelte-77hwby.svelte-77hwby,
+  .bb,
 .hand-pieces.pseudo3d.horizontal.with-king
   .piece
-  .bk.svelte-77hwby.svelte-77hwby,
+  .bk,
 .hand-pieces.pseudo3d.horizontal.with-king
   .piece
-  .bn.svelte-77hwby.svelte-77hwby,
+  .bn,
 .hand-pieces.pseudo3d.horizontal.with-king
   .piece
-  .bp.svelte-77hwby.svelte-77hwby,
+  .bp,
 .hand-pieces.pseudo3d.horizontal.with-king
   .piece
-  .bq.svelte-77hwby.svelte-77hwby,
+  .bq,
 .hand-pieces.pseudo3d.horizontal.with-king
   .piece
-  .br.svelte-77hwby.svelte-77hwby {
+  .br {
   z-index: 1;
 }
 .hand-pieces.pseudo3d.horizontal.with-king
   .piece
-  .wb.svelte-77hwby.svelte-77hwby,
+  .wb,
 .hand-pieces.pseudo3d.horizontal.with-king
   .piece
-  .wk.svelte-77hwby.svelte-77hwby,
+  .wk,
 .hand-pieces.pseudo3d.horizontal.with-king
   .piece
-  .wn.svelte-77hwby.svelte-77hwby,
+  .wn,
 .hand-pieces.pseudo3d.horizontal.with-king
   .piece
-  .wp.svelte-77hwby.svelte-77hwby,
+  .wp,
 .hand-pieces.pseudo3d.horizontal.with-king
   .piece
-  .wq.svelte-77hwby.svelte-77hwby,
+  .wq,
 .hand-pieces.pseudo3d.horizontal.with-king
   .piece
-  .wr.svelte-77hwby.svelte-77hwby {
+  .wr {
   z-index: 2;
 }
 .hand-pieces.pseudo3d.horizontal.with-king.flipped
   .piece
-  .wb.svelte-77hwby.svelte-77hwby,
+  .wb,
 .hand-pieces.pseudo3d.horizontal.with-king.flipped
   .piece
-  .wk.svelte-77hwby.svelte-77hwby,
+  .wk,
 .hand-pieces.pseudo3d.horizontal.with-king.flipped
   .piece
-  .wn.svelte-77hwby.svelte-77hwby,
+  .wn,
 .hand-pieces.pseudo3d.horizontal.with-king.flipped
   .piece
-  .wp.svelte-77hwby.svelte-77hwby,
+  .wp,
 .hand-pieces.pseudo3d.horizontal.with-king.flipped
   .piece
-  .wq.svelte-77hwby.svelte-77hwby,
+  .wq,
 .hand-pieces.pseudo3d.horizontal.with-king.flipped
   .piece
-  .wr.svelte-77hwby.svelte-77hwby {
+  .wr {
   z-index: 1;
 }
 .hand-pieces.pseudo3d.horizontal.with-king.flipped
   .piece
-  .bb.svelte-77hwby.svelte-77hwby,
+  .bb,
 .hand-pieces.pseudo3d.horizontal.with-king.flipped
   .piece
-  .bk.svelte-77hwby.svelte-77hwby,
+  .bk,
 .hand-pieces.pseudo3d.horizontal.with-king.flipped
   .piece
-  .bn.svelte-77hwby.svelte-77hwby,
+  .bn,
 .hand-pieces.pseudo3d.horizontal.with-king.flipped
   .piece
-  .bp.svelte-77hwby.svelte-77hwby,
+  .bp,
 .hand-pieces.pseudo3d.horizontal.with-king.flipped
   .piece
-  .bq.svelte-77hwby.svelte-77hwby,
+  .bq,
 .hand-pieces.pseudo3d.horizontal.with-king.flipped
   .piece
-  .br.svelte-77hwby.svelte-77hwby {
+  .br {
   z-index: 2;
 }
 .board .hand-pieces.with-king {

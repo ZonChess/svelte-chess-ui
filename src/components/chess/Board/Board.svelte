@@ -384,4 +384,189 @@
   .coordinate-dark {
     fill: #edeed1;
   }
+
+    /* body.with-pieces {
+    --boardContainerWidthWithPieces: max(
+      var(--boardMinWidth),
+      min(
+        var(--boardMaxWidthWithPieces),
+        var(--modifiedBoardWidth, var(--boardMaxHeight)) *
+          var(--boardHeightToWidthRatio) * 1.1
+      )
+    );
+    --piecesWidth: calc(var(--boardContainerWidthWithPieces) / 11);
+  }
+  .board-layout-pieces {
+    grid-column: pieces;
+  } */
+  /* .with-pieces .board-layout-pieces {
+    margin-left: calc(var(--boardContainerWidth) - var(--boardWidth));
+    width: var(--piecesWidth);
+  } */
+  .board-layout-main {
+    display: flex;
+    flex-direction: column;
+    grid-column: board-layout;
+    margin: 0 auto;
+    position: relative;
+    width: min-content;
+  }
+  .board-layout-chessboard {
+    display: grid;
+    grid-template-columns: [evaluation] var(--evalAndGutter) [pieces] var(
+        --piecesWidth
+      ) [board] var(--boardContainerWidth) [board-controls] var(
+        --boardControlsWidth
+      );
+    margin: 0 0 0;
+    position: relative;
+  }
+  .board-layout-chessboard > * {
+    grid-row: 1;
+  }
+  .board-layout-chessboard .board {
+    grid-column: board;
+    height: var(--boardHeight) !important;
+    margin-left: calc(var(--boardContainerWidth) - var(--boardWidth));
+    padding-bottom: 0;
+    width: var(--boardWidth) !important;
+  }
+
+  .board-layout-sidebar {
+    display: flex;
+    flex: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    margin-top: var(--gutter);
+    min-height: var(--sidebarMinHeight);
+    min-width: var(--sidebarMinWidth);
+    width: 50rem;
+  }
+  @media (min-width: 960px) {
+    .board-layout-sidebar {
+      grid-area: top/sidebar;
+      margin-top: 0;
+    }
+  }
+
+  body.with-players {
+    --playerHeight: 4rem;
+  }
+  .board-layout-player {
+    flex-shrink: 0;
+    height: var(--playerHeight);
+    margin: 0 var(--boardControlsWidth) 0 auto;
+    position: relative;
+    width: var(--boardWidth);
+  }
+
+  body {
+    --boardContainerWidth: max(
+      var(--boardMinWidth),
+      min(var(--boardMaxWidth), var(--boardMaxHeight))
+    );
+    --boardHeight: calc(var(--boardWidth) * var(--boardHeightToWidthRatio));
+    --boardHeightToWidthRatio: 1;
+    --boardMaxHeight: (
+        100vh - 
+          var(--horizontalNavHeight) - var(--playerHeight) * 2 -
+          var(--gutterTopPlayerToJudo) - var(--gutter) 
+      ) / var(--boardHeightToWidthRatio);
+    --boardMaxWidthSansOverride: var(--boardMaxWidthWithPieces) - var(--piecesWidth);
+    /* --boardMaxWidth: min(
+      var(--boardMaxWidthSansOverride),
+      var(--modifiedBoardWidth, var(--boardMaxWidthSansOverride))
+    ); */
+    --boardMaxWidth: var(--boardMaxWidthWithPieces) - var(--piecesWidth);
+    --boardMaxWidthWithPieces: 100vw - var(--gutter) * 2 -
+      var(--gutterLeftOfBoard) - var(--evalWidth);
+    --boardMinWidth: 26.4rem;
+    --boardRowHeight: max(
+      calc(
+        100vh - var(--gutter) - var(--gutterTopPlayerToJudo) -
+        var(--horizontalNavHeight)
+      ),
+      var(--sidebarMinHeight)
+    );
+    --shf: 4.9406564584124654e-324;
+    --divisibleBy: 8;
+    --subtractFrom: (0.05rem - 1e-10rem);
+    --boardWidth: calc(
+      (
+          (
+              (
+                  (var(--boardContainerWidth) / var(--divisibleBy)) -
+                    var(--subtractFrom)
+                ) * var(--shf)
+            ) / var(--shf)
+        ) * var(--divisibleBy)
+    );
+    --evalWidth: 0rem;
+    --gutterBoardToNav: var(--gutter);
+    --gutterBottomPlayerToAnalysis: 0rem;
+    --gutterLeftOfBoard: 0rem;
+    --boardControlsWidth: 0rem;
+    --piecesWidth: 0rem;
+    --playerHeight: 0rem;
+    --adWidth: 0rem;
+    --analysisHeight: 0rem;
+    --evalAndGutter: 0rem;
+    --gutter: 1.6rem;
+    --gutterSmall: 1rem;
+    --gutterTopPlayerToJudo: var(--gutter);
+    --horizontalNavHeight: 4rem;
+    --sidebarMaxWidth: 50rem;
+    --sidebarMinHeight: 50rem;
+    --sidebarMinWidth: 30rem;
+    --verticalNavWidth: 0rem;
+    --videoWidth: 0rem;
+    padding: calc(
+        var(--gutter) +
+          var(--horizontalNavHeight)
+      )
+      var(--gutter) var(--gutter)
+      calc(var(--verticalNavWidth) + var(--gutterBoardToNav));
+  }
+  .cls-board body {
+    --shf: 1 !important;
+    --subtractFrom: 0rem !important;
+  }
+  @media (min-width: 960px) {
+    body {
+      --boardControlsWidth: calc(var(--gutter) * 2);
+      --boardControlsHeight: calc(
+        var(--playerHeight) + var(--boardHeight)
+      );
+      --boardMaxHeight: (
+          100vh - var(--playerHeight) *
+            2 - var(--gutterTopPlayerToJudo) - var(--gutter) -
+            var(--gutterBottomPlayerToAnalysis) - var(--analysisHeight)
+        ) / var(--boardHeightToWidthRatio);
+      --boardMaxWidthWithPieces: 100vw - var(--verticalNavWidth) -
+        var(--gutterBoardToNav) - var(--gutter) - var(--boardControlsWidth) -
+        var(--gutterLeftOfBoard) - var(--evalWidth) - var(--sidebarMinWidth) -
+        var(--adWidth) - var(--gutterLeftOfTheaterPlayer) -
+        var(--theaterPlayerWidth);
+      --gutterLeftOfTheaterPlayer: 0rem;
+      --gutterBoardToNav: 1.2rem;
+      --horizontalNavHeight: 0rem;
+      --theaterPlayerWidth: 0rem;
+      --verticalNavWidth: var(--navWidth, 14.5rem);
+      display: grid;
+      grid-template-columns: [left-gutter] 1fr [theater-players] calc(
+          var(--gutterLeftOfTheaterPlayer) + var(--theaterPlayerWidth)
+        ) [board-layout] min-content [sidebar] minmax(
+          var(--sidebarMinWidth),
+          var(--sidebarMaxWidth)
+        ) [right-gutter] 1fr [ad] var(--adWidth) [videos] var(--videoWidth) [extraneous-dom] 0;
+      grid-template-rows: [top] var(--boardRowHeight) [bottom] auto;
+    }
+  }
+  @media (min-resolution: 192dpi) {
+    body {
+      --divisibleBy: 16;
+      --subtractFrom: (0.025rem - 1e-10rem);
+    }
+  }
+
 </style>

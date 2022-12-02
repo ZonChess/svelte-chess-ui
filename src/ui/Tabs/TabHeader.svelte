@@ -6,7 +6,7 @@ import Icon from "../Icon/Icon.svelte";
   export let icon: string;
 </script>
 
-<a
+<!-- <a
   href="#"
   on:click
   data-cy="analysis-tab-button-analysis"
@@ -14,7 +14,9 @@ import Icon from "../Icon/Icon.svelte";
   class:sidebar-tabs-active={active}
   ><Icon name={icon} classes="sidebar-tabs-icon" />
   <span class="sidebar-tabs-label">{name}</span></a
->
+> -->
+
+<button on:click class:sidebar-tabs-active={active} class="block subscription-tab rounded-b-none rounded-r-md border-l border-gray-600">{name}</button>
 
 <style>
   .sidebar-tabs-tab:first-child {

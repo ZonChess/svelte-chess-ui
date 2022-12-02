@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { TabType } from "../../../store/chess/type";
   import Tabs from "../../../ui/Tabs/Tabs.svelte";
-  import AnalysisTab from "../AnalysisTab/AnalysisTab.svelte";
+  import AnalysisTab from "../analysis.tab/AnalysisTab.svelte";
 
   let tabs: TabType[] = [
     {
