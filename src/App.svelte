@@ -2,12 +2,14 @@
   import { Router, Route, Link } from "svelte-navigator";
   import Homepage from "./views/Homepage.svelte";
   import PlayChess from "./views/chess/PlayChess.svelte";
+  import LoginView from "./views/LoginView.svelte";
 </script>
 
 <main>
   <Router primary={false}>
     <Route path="/"><Homepage /></Route>
     <Route path="chess"><PlayChess /></Route>
+    <Route path="/login"><LoginView /></Route>
   </Router>
 </main>
 

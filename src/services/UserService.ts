@@ -110,9 +110,6 @@ async function signIn(payload: {
     return await signInWithFirebaseEmailAndPassword(payload);
   } else if (config.enableAuthFirebaseLink) {
     return await signInWithFirebaseLink(payload);
-  } else if (config.enableAuthCognito) {
-    // Login with AWS Cognito
-    return await signInWithCognitoEmailAndPassword(payload);
   } else if (config.enableAuthServer) {
     // Login with your own server
     return await signInWithServerEmailAndPassword(payload);
@@ -195,14 +192,6 @@ async function signUpWithFirebaseEmailAndPassword(payload: {
   return null;
 }
 
-async function signUpWithCognitoEmailAndPassword(payload: {
-  email: string;
-  password: string;
-}): Promise<Token> {
-  // [Implement later]
-  return null;
-}
-
 async function signUpWithServerEmailAndPassword(payload: {
   email: string;
   password: string;
@@ -221,9 +210,6 @@ async function signUp(payload: {
   } else if (config.enableAuthFirebaseLink) {
     // Signup with Firebase via link
     return await signUpWithFirebaseLink(payload);
-  } else if (config.enableAuthCognito) {
-    // Signup with AWS Cognito Email and Password
-    return await signUpWithCognitoEmailAndPassword(payload);
   } else if (config.enableAuthServer) {
     // Signup with your own server
     return await signUpWithServerEmailAndPassword(payload);
@@ -261,9 +247,6 @@ async function logout(): Promise<boolean> {
   } else if (config.enableAuthFirebaseLink) {
     // Sign-out with Firebase via link
     return await signOutWithFirebaseLink();
-  } else if (config.enableAuthCognito) {
-    // Sign-out with AWS Cognito
-    return await signOutWithCognito();
   } else if (config.enableAuthServer) {
     // Sign-out with your own server
     return await signOutWithServer();

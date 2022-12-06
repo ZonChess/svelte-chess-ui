@@ -1,24 +1,20 @@
 export default {
   enableAuthFirebase: true,
   firebase: {
-    apiKey: "",
-    authDomain: "",
+    apiKey: "AIzaSyDnjwS72-KW1t0Zq6IwaIhOXS1uS3jp6_k",
+    authDomain: "zonwow.firebaseapp.com",
     databaseURL: "",
-    projectId: "",
+    projectId: "zonwow",
     storageBucket: "",
     messagingSenderId: "",
     appId: "",
   },
   enableAuthFirebaseLink: false,
   firebaseLinkConfig: {
-    key: "",
+    key: "AIzaSyDnjwS72-KW1t0Zq6IwaIhOXS1uS3jp6_k",
     loginUrl:
       "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=",
     signUpUrl: "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=",
-  },
-  enableAuthCognito: false,
-  cognito: {
-    key: "",
   },
   enableAuthServer: false,
 };
